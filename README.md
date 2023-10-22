@@ -43,6 +43,7 @@ In my first optimization model, I tried adding another hidden layer and increasi
 ![image](https://github.com/CRGMBC/NeuralNetworks-DeepLearning/assets/134125287/34d2559b-e7ae-46ab-8228-102477b4b6a0)
 
 * Were you able to achieve the target model performance?
+  
 No, the result was 72.5%
 
 ![image](https://github.com/CRGMBC/NeuralNetworks-DeepLearning/assets/134125287/4860769c-f080-4bad-9f59-8ad08f990392)
