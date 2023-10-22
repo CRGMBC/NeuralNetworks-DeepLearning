@@ -8,7 +8,8 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 ## Report:
 
 ### Overview
-The purpose of this analysis is to create a binary classifier using a deep learning neural network to predict the success rate of applicants for funding from Alphabet Soup, a nonprofit organization. The provided dataset contains information on over 34,000 organizations, including metadata such as application type, affiliated sector of industry, government organization classification, use case for funding, income classification, funding amount requested, and whether the money was used effectively. The analysis involves preprocessing the dataset by dropping unnecessary columns, encoding categorical variables, and splitting the data into training and testing datasets. The neural network model is then designed, trained, and evaluated to determine its loss and accuracy. Finally, the model is optimized using various methods such as adjusting input data, adding more neurons and hidden layers, using different activation functions, and adjusting the number of epochs. The ultimate goal is to achieve a predictive accuracy higher than 75% and save the optimized model as an HDF5 file.
+The aim of this investigation is to develop a binary classifier employing a deep learning neural network, which can forecast the approval rate of applicants seeking funding from Alphabet Soup, a nonprofit organization. The dataset furnished includes details on more than 34,000 organizations, encompassing attributes like application type, affiliated industry sector, government organization categorization, funding utilization purpose, income classification, requested funding amount, and effectiveness of fund usage. The analytical process commences with data preprocessing, involving the elimination of redundant columns, encoding categorical variables, and partitioning the data into training and testing sets. Subsequently, the neural network model is conceived, trained, and assessed to gauge its loss and accuracy. Lastly, the model undergoes optimization through diverse techniques, including adjustments to input data, augmentation of neurons and hidden layers, employment of varied activation functions, and fine-tuning the number of epochs. The ultimate objective is to attain a predictive accuracy surpassing 75% and to archive the optimized model in an HDF5 file format.
+
 
 ## Results:
 
@@ -83,3 +84,9 @@ Yes, the result was 79.4%
 
 ![image](https://github.com/CRGMBC/NeuralNetworks-DeepLearning/assets/134125287/b9305686-8a6a-49b8-847e-f373681a5c2d)
 
+
+## Summary:
+
+In summary, the utilization of TensorFlow and Keras in constructing a deep learning model yielded a predictive accuracy of 79% when categorizing the success of organizations supported by Alphabet Soup using their distinctive features. Various optimization strategies were employed during the model's development, encompassing the removal of columns, categorical variable binning, incorporation of hidden layers and neurons, and experimentation with different activation functions, among other fine-tuning adjustments. It's worth noting that the intended predictive accuracy threshold of 75% was met, but it demanded extensive optimization iterations to attain this level of performance.
+
+A suggested approach for addressing this classification challenge is to explore alternative models, like a Random Forest Classifier. Random Forest is adept at managing both numerical and categorical variables without extensive preprocessing, therefore is suitable for datasets containing outliers and imbalances. 
