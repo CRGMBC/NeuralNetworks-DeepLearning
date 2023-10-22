@@ -22,14 +22,17 @@ The purpose of this analysis is to create a binary classifier using a deep learn
 ### Compiling, Training, and Evaluating the Model  
 ### original model
 *	How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
 2 hidden layers were used in the original model of 80 and 30 neurons respectively.  Activation function of "ReLU" were used for both.  The outer layer activatuon was "Sigmoid".  100 Epochs were used to train the model. 
 *	Were you able to achieve the target model performance?
+
 No, the result was 72.6%
 
 ![image](https://github.com/CRGMBC/NeuralNetworks-DeepLearning/assets/134125287/03385ac0-0e7e-45bc-83d3-5d8ee79453ce)
 
-### model 1
+### Optimization model 1
 *	What steps did you take in your attempts to increase model performance?
+
 In my first optimization model, I tried adding another hidden layer and increasing the nodes to 100, 30 and 10.  Activation of "ReLU" was used on the first layer and the "Sigmoid" on the 2nd & 3rd layer.
 
 ![image](https://github.com/CRGMBC/NeuralNetworks-DeepLearning/assets/134125287/34d2559b-e7ae-46ab-8228-102477b4b6a0)
@@ -38,13 +41,29 @@ In my first optimization model, I tried adding another hidden layer and increasi
 No, the result was 72.5%
 
 
-### model 2
+### Optimization model 2
 *	What steps did you take in your attempts to increase model performance?
-I dropped 'SPECIAL_CONSIDERATIONS' column along with EIN and NAME
+
+I dropped 'SPECIAL_CONSIDERATIONS' column along with 'EIN' and 'NAME'.
+
 I changed the 'APPLICATION_TYPE' cut-off from 500 to 700.
+
 In my second optimization model, I changed the nodes to 100, 60 and 20.  Activation of "ReLU" on the first and second layer and "Sigmoid" 3rd.
 
 ![image](https://github.com/CRGMBC/NeuralNetworks-DeepLearning/assets/134125287/d0d8078a-c4f8-4f33-8ad8-c9bf951e475b)
 
 * Were you able to achieve the target model performance?
-No, the result was 72.5%
+
+No, the result was 72.6%
+
+### Optimization model 3
+*	What steps did you take in your attempts to increase model performance?
+
+I dropped 'SPECIAL_CONSIDERATIONS' 'EIN' and 'STATUS COLUMNS'.
+
+I chose a cut-off value for 'NAME' of 4 which reduced the number of records to 475.
+
+In my third optimization model, I changed the nodes to 25, 15 and 3.  Activation of "ReLU" on the first layer and "Sigmoid" on the second and third.
+
+
+
